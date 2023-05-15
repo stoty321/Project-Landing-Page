@@ -140,14 +140,14 @@ body {
 
 .quote-signed {
     align-self: flex-end;
-    font-style: bolder;
+    font-weight: bolder;
 }
 
 .signup {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: 100px 50px;
     padding:50px;
     border-radius: 12px;
@@ -156,8 +156,9 @@ body {
 }
 
 .signuph {
-    font-style: bolder;
-    size: 32px;
+    font-weight: bolder;
+    font-size: 32px;
+    
 }
 .signup-button {
     background-color: #3882f6;
