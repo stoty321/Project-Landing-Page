@@ -29,7 +29,8 @@ body {
     color: #E5E7EB;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    gap: 16px;
 }
 
 .top {
@@ -97,7 +98,7 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-between;    
 }
 
 .infobox {
@@ -106,6 +107,7 @@ body {
     border-style: solid;
     border-radius: 12px;
     padding:30px;
+    margin: 0px;  
 }
 
 .info-container {
@@ -115,13 +117,6 @@ body {
     justify-content: space-between;
 }
 
-/* .info-boxdescr {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-} */
-
 .boxdescr { 
     padding:30px 20px;
     text-align: center;
@@ -130,21 +125,22 @@ body {
 
 .quote {
     background-color: #E5E7EB;
-    font-size: 36px;
-    font-style: italic;
-    color: #1F2937;
-
     padding: 100px;
-
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
+.quote-text {
+    font-size: 36px;
+    font-style: oblique;
+    color: #1F2937;
+}
+
 .quote-signed {
     align-self: flex-end;
-    font-style: bold;
+    font-style: bolder;
 }
 
 .signup {
@@ -152,7 +148,6 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-
     margin: 100px 50px;
     padding:50px;
     border-radius: 12px;
